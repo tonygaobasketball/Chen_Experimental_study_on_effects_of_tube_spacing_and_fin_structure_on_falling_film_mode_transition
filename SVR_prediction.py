@@ -12,6 +12,9 @@ J. Chen, Z. Gao
 
 All rights reserved
 """
+import numpy as np
+import joblib
+import funcs
 
 # Inputs:  (Change the values)
 Ga_25 = 21
@@ -23,7 +26,7 @@ model_select = 'CS_S.model'
 
 #---------------------
 # Please do not change this part.
-X_te = np.array([[Ga**0.25, s_div_xi, F]])
+X_te = np.array([[Ga_25, s_div_xi, F]])
 # Load the model:
 RF = joblib.load(model_select)  
 # Predict the Re value.  
