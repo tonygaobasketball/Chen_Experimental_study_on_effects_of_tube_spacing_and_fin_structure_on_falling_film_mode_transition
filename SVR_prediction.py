@@ -14,7 +14,7 @@ All rights reserved
 """
 
 # Inputs:  (Change the values)
-Ga = 194481
+Ga_25 = 21
 s_div_xi = 4.556
 F = 28.00
 # Select which model to use:
